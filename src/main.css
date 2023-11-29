@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 :root {
   font-family: "Cascadia Code PL", Arial;
   font-size: 2.5rem;
@@ -67,10 +69,27 @@ div input {
   outline: 0;
   border-width: 0;
   border-radius: 3px;
+  font-family: "Lato", sans-serif;
 }
 
 div input:hover {
   box-shadow: 0 0 0 3px rgb(255 255 255 / 47%);
+}
+
+#changeColor {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-width: 0;
+  background-color: rgb(109 94 241);
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 16px;
 }
 
 @media (width < 600px) {
